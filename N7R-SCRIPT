@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>بحث سكربتات N7R</title>
+
+<style>
+body {
+    background: #0f172a;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 { color: #38bdf8; }
+
+input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.script-box {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 15px;
+    display: inline-block;
+    width: 300px;
+}
+
+button {
+    margin-top: 8px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 10px;
+    background: #22c55e;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover { background: #16a34a; }
+
+.rating { margin-top: 10px; }
+
+.like { background: #3b82f6; opacity: 0.5; }
+.dislike { background: #ef4444; opacity: 0.5; }
+</style>
+</head>
+
+<body>
+
+<h1>🔍 بحث سكربتات N7R</h1>
+<input type="text" id="search" placeholder="ابحث عن سكربت...">
+
+<div id="scripts">
+
+<!-- سكربتات -->
+<div class="script-box" data-name="f3x" data-id="f3x">
+<h2>F3X</h2>
+<p class="code">loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-z238z-HD-GUI-v1-89315"))()</p>
+<button onclick="copyScript(this)">📋 نسخ</button>
+<div class="rating">
+<button class="like" onclick="rate(this,'like')">👍 <span>0</span></button>
+<button class="dislike" onclick="rate(this,'dislike')">👎 <span>0</span></button>
+</div>
+</div>
+
+<div class="script-box" data-name="99 nights" data-id="nights">
+<h2>99 Nights</h2>
+<p class="code">loadstring(game:HttpGet("https://rawscripts.net/raw/99-Nights-in-the-Forest-SNOW-BIOME-KEYLESS-BEST-99-NIGHTS-IN-THE-FOREST-SCRIPT-VOIDWARE-47274"))()</p>
+<button onclick="copyScript(this)">📋 نسخ</button>
+<div class="rating">
+<button class="like" onclick="rate(this,'like')">👍 <span>0</span></button>
+<button class="dislike" onclick="rate(this,'dislike')">👎 <span>0</span></button>
+</div>
+</div>
+
+<div class="script-box" data-name="blox fruits" data-id="blox">
+<h2>Blox Fruits</h2>
+<p class="code">loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()</p>
+<button onclick="copyScript(this)">📋 نسخ</button>
+<div class="rating">
+<button class="like" onclick="rate(this,'like')">👍 <span>0</span></button>
+<button class="dislike" onclick="rate(this,'dislike')">👎 <span>0</span></button>
+</div>
+</div>
+
+<div class="script-box" data-name="brookhaven" data-id="brook">
+<h2>Brookhaven</h2>
+<p class="code">loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-GHIM-HUB-46535"))()</p>
+<button onclick="copyScript(this)">📋 نسخ</button>
+<div class="rating">
+<button class="like" onclick="rate(this,'like')">👍 <span>0</span></button>
+<button class="dislike" onclick="rate(this,'dislike')">👎 <span>0</span></button>
+</div>
+</div>
+
+<div class="script-box" data-name="doors tool giver" data-id="doors">
+<h2>TOOL GIVER DOORS 🚪</h2>
+<p class="code">loadstring(game:HttpGet("https://raw.githubusercontent.com/Darli17/Entities/refs/heads/main/Tools"))()</p>
+<button onclick="copyScript(this)">📋 نسخ</button>
+<div class="rating">
+<button class="like" onclick="rate(this,'like')">👍 <span>0</span></button>
+<button class="dislike" onclick="rate(this,'dislike')">👎 <span>0</span></button>
+</div>
+</div>
+
+<div class="script-box" data-name="blue lock" data-id="blue">
+<h2>Blue Lock</h2>
+<p class="code">loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/game/refs/heads/main/TbaoHubBlueLockRivals"))()</p>
+<button onclick="copyScript(this)">📋 نسخ</button>
+<div class="rating">
+<button class="like" onclick="rate(this,'like')">👍 <span>0</span></button>
+<button class="dislike" onclick="rate(this,'dislike')">👎 <span>0</span></button>
+</div>
+</div>
+
+<div class="script-box" data-name="redz hub" data-id="redz">
+<h2>REDz HUB</h2>
+<p class="code">loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-REDz-HUB-25877"))()</p>
+<button onclick="copyScript(this)">📋 نسخ</button>
+<div class="rating">
+<button class="like" onclick="rate(this,'like')">👍 <span>0</span></button>
+<button class="dislike" onclick="rate(this,'dislike')">👎 <span>0</span></button>
+</div>
+</div>
+
+<div class="script-box" data-name="r4d brookhaven" data-id="r4d">
+<h2>R4D</h2>
+<p class="code">loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))()</p>
+<button onclick="copyScript(this)">📋 نسخ</button>
+<div class="rating">
+<button class="like" onclick="rate(this,'like')">👍 <span>0</span></button>
+<button class="dislike" onclick="rate(this,'dislike')">👎 <span>0</span></button>
+</div>
+</div>
+
+<div class="script-box" data-name="flee the facility" data-id="flee">
+<h2>Flee the Facility ⚒️</h2>
+<p class="code">loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Aimbot"))()</p>
+<button onclick="copyScript(this)">📋 نسخ</button>
+<div class="rating">
+<button class="like" onclick="rate(this,'like')">👍 <span>0</span></button>
+<button class="dislike" onclick="rate(this,'dislike')">👎 <span>0</span></button>
+</div>
+</div>
+
+</div>
+
+<script>
+// نسخ
+function copyScript(btn) {
+    let text = btn.parentElement.querySelector(".code").innerText;
+    navigator.clipboard.writeText(text);
+    alert("تم النسخ ✅");
+}
+
+// تقييم متطور
+function rate(btn, type) {
+    let box = btn.closest(".script-box");
+    let id = box.getAttribute("data-id");
+
+    let likes = parseInt(localStorage.getItem(id+"_like")) || 0;
+    let dislikes = parseInt(localStorage.getItem(id+"_dislike")) || 0;
+    let vote = localStorage.getItem(id+"_vote");
+
+    if (vote === type) {
+        if (type === "like") likes--;
+        else dislikes--;
+        localStorage.removeItem(id+"_vote");
+    } else if (vote) {
+        if (type === "like") { likes++; dislikes--; }
+        else { dislikes++; likes--; }
+        localStorage.setItem(id+"_vote", type);
+    } else {
+        if (type === "like") likes++;
+        else dislikes++;
+        localStorage.setItem(id+"_vote", type);
+    }
+
+    localStorage.setItem(id+"_like", likes);
+    localStorage.setItem(id+"_dislike", dislikes);
+
+    updateUI(box, id);
+}
+
+// تحديث الشكل
+function updateUI(box, id) {
+    let likes = localStorage.getItem(id+"_like") || 0;
+    let dislikes = localStorage.getItem(id+"_dislike") || 0;
+    let vote = localStorage.getItem(id+"_vote");
+
+    box.querySelector(".like span").innerText = likes;
+    box.querySelector(".dislike span").innerText = dislikes;
+
+    box.querySelector(".like").style.opacity = vote === "like" ? "1" : "0.5";
+    box.querySelector(".dislike").style.opacity = vote === "dislike" ? "1" : "0.5";
+}
+
+// تحميل
+window.onload = function() {
+    document.querySelectorAll(".script-box").forEach(box => {
+        let id = box.getAttribute("data-id");
+        updateUI(box, id);
+    });
+}
+
+// بحث
+document.getElementById("search").addEventListener("keyup", function() {
+    let value = this.value.toLowerCase();
+    document.querySelectorAll(".script-box").forEach(box => {
+        let name = box.getAttribute("data-name");
+        box.style.display = name.includes(value) ? "inline-block" : "none";
+    });
+});
+</script>
+
+</body>
+</html>
